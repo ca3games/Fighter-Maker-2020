@@ -1,0 +1,2 @@
+var filename
+var pos

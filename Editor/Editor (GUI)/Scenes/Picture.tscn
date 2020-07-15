@@ -1,0 +1,70 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://2D/Point.png" type="Texture" id=1]
+[ext_resource path="res://2D/Background.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/Picture.gd" type="Script" id=3]
+[ext_resource path="res://Scenes/MouseClick.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/HitboxDraw.gd" type="Script" id=5]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [  ],
+"loop": true,
+"name": "frames",
+"speed": 5.0
+} ]
+
+[node name="Picture" type="Node2D"]
+position = Vector2( 500, 318 )
+scale = Vector2( 2, 2 )
+script = ExtResource( 3 )
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "frames"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Camera" type="Camera2D" parent="."]
+position = Vector2( 14.7995, -73.5036 )
+current = true
+
+[node name="Background" type="Sprite" parent="Camera"]
+modulate = Color( 0.34902, 0.34902, 0.34902, 1 )
+position = Vector2( -7.22577, -11.0564 )
+scale = Vector2( 94.779, 67.9881 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="BODY" type="Control" parent="Camera"]
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -267.382
+margin_top = -89.0013
+margin_right = 252.618
+margin_bottom = 220.999
+rect_min_size = Vector2( 520, 310 )
+mouse_filter = 1
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="MouseClick" type="TextureButton" parent="Camera"]
+margin_left = -267.0
+margin_top = -89.0
+margin_right = 256.0
+margin_bottom = 221.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Point" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+[connection signal="button_down" from="Camera/MouseClick" to="." method="_on_MouseClick_button_down"]
