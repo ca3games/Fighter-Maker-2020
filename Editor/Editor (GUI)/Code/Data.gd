@@ -1,2 +1,0 @@
-var filename
-var pos

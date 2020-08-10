@@ -1,0 +1,17 @@
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\obj\Debug\Editor.csprojAssemblyReference.cache
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\obj\Debug\Editor.csproj.CoreCompileInputs.cache
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\Editor.exe.config
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\Editor.exe
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\Editor.pdb
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\glib-sharp.dll
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\gtk-sharp.dll
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\atk-sharp.dll
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\gdk-sharp.dll
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\pango-sharp.dll
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\glib-sharp.pdb
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\atk-sharp.pdb
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\gdk-sharp.pdb
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\bin\Debug\pango-sharp.pdb
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\obj\Debug\Editor.csproj.CopyComplete
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\obj\Debug\Editor.exe
+C:\Users\cristian\Documents\GitHub\Fighter-Maker-2020\Editor\Editor C#\Editor\obj\Debug\Editor.pdb
