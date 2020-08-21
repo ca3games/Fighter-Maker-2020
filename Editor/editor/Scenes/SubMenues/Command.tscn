@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Code/Command.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/SubMenues/Button.tscn" type="PackedScene" id=2]
+
+[node name="HBoxContainer" type="HBoxContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Direction" type="OptionButton" parent="."]
+margin_right = 88.0
+margin_bottom = 40.0
+text = "Direction"
+
+[node name="Button1" parent="." instance=ExtResource( 2 )]
+margin_right = 121.0
+
+[node name="Button2" parent="." instance=ExtResource( 2 )]
+margin_left = 125.0
+margin_right = 154.0
+
+[node name="Button3" parent="." instance=ExtResource( 2 )]
+margin_left = 158.0
+margin_right = 187.0
+
+[node name="Button4" parent="." instance=ExtResource( 2 )]
+margin_left = 191.0
+margin_right = 220.0

@@ -1,0 +1,39 @@
+[gd_scene format=2]
+
+[node name="ControlsList" type="HBoxContainer"]
+margin_right = 300.0
+margin_bottom = 20.0
+alignment = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AddState" type="Button" parent="."]
+margin_left = 62.0
+margin_right = 82.0
+margin_bottom = 20.0
+text = "+"
+
+[node name="DeleteState" type="Button" parent="."]
+margin_left = 86.0
+margin_right = 103.0
+margin_bottom = 20.0
+text = "-"
+
+[node name="Clear" type="Button" parent="."]
+margin_left = 107.0
+margin_right = 151.0
+margin_bottom = 20.0
+text = "Clear"
+
+[node name="Up" type="Button" parent="."]
+margin_left = 155.0
+margin_right = 185.0
+margin_bottom = 20.0
+text = "Up"
+
+[node name="Down" type="Button" parent="."]
+margin_left = 189.0
+margin_right = 237.0
+margin_bottom = 20.0
+text = "Down"

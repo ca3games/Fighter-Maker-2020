@@ -1,0 +1,104 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/SubMenues/FSM PseudoCode.tscn" type="PackedScene" id=1]
+
+[node name="Mascot" type="VBoxContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+margin_right = 575.0
+margin_bottom = 541.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer2"]
+margin_right = 238.0
+margin_bottom = 541.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer2/VBoxContainer"]
+margin_right = 238.0
+margin_bottom = 24.0
+
+[node name="IsMascot" type="CheckBox" parent="HBoxContainer2/VBoxContainer/HBoxContainer"]
+margin_right = 96.0
+margin_bottom = 24.0
+text = "Is Mascot?"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="HBoxContainer2/VBoxContainer"]
+margin_top = 28.0
+margin_right = 238.0
+margin_bottom = 52.0
+
+[node name="FollowPlayer" type="CheckBox" parent="HBoxContainer2/VBoxContainer/HBoxContainer3"]
+margin_right = 118.0
+margin_bottom = 24.0
+text = "Follow Player?"
+
+[node name="HBoxContainer6" type="HBoxContainer" parent="HBoxContainer2/VBoxContainer"]
+margin_top = 56.0
+margin_right = 238.0
+margin_bottom = 80.0
+
+[node name="FollowOponent" type="CheckBox" parent="HBoxContainer2/VBoxContainer/HBoxContainer6"]
+margin_right = 135.0
+margin_bottom = 24.0
+text = "Follow Oponent?"
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="HBoxContainer2/VBoxContainer"]
+margin_top = 84.0
+margin_right = 238.0
+margin_bottom = 108.0
+
+[node name="FollowOwnCamera" type="CheckBox" parent="HBoxContainer2/VBoxContainer/HBoxContainer4"]
+margin_right = 192.0
+margin_bottom = 24.0
+text = "Follow Own Camera Wall?"
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="HBoxContainer2/VBoxContainer"]
+margin_top = 112.0
+margin_right = 238.0
+margin_bottom = 136.0
+
+[node name="FollowStageWall" type="CheckBox" parent="HBoxContainer2/VBoxContainer/HBoxContainer5"]
+margin_right = 145.0
+margin_bottom = 24.0
+text = "Follow Stage Wall?"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer2/VBoxContainer"]
+margin_top = 140.0
+margin_right = 238.0
+margin_bottom = 164.0
+
+[node name="Label" type="Label" parent="HBoxContainer2/VBoxContainer/HBoxContainer2"]
+margin_top = 5.0
+margin_right = 120.0
+margin_bottom = 19.0
+text = "Distance to Target:"
+
+[node name="LineEdit" type="LineEdit" parent="HBoxContainer2/VBoxContainer/HBoxContainer2"]
+margin_left = 124.0
+margin_right = 182.0
+margin_bottom = 24.0
+max_length = 3
+
+[node name="Button" type="Button" parent="HBoxContainer2/VBoxContainer/HBoxContainer2"]
+margin_left = 186.0
+margin_right = 218.0
+margin_bottom = 24.0
+text = "Set"
+
+[node name="Label2" type="Label" parent="HBoxContainer2/VBoxContainer/HBoxContainer2"]
+margin_left = 222.0
+margin_top = 5.0
+margin_right = 238.0
+margin_bottom = 19.0
+text = "00"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PseudoCode" parent="HBoxContainer2" instance=ExtResource( 1 )]
+margin_left = 242.0
+margin_right = 575.0

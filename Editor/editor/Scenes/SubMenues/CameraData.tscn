@@ -1,0 +1,212 @@
+[gd_scene format=2]
+
+[node name="CameraData" type="VBoxContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_right = 243.0
+margin_bottom = 24.0
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+margin_top = 5.0
+margin_right = 80.0
+margin_bottom = 19.0
+text = "Level Width:"
+
+[node name="VSeparator2" type="VSeparator" parent="HBoxContainer"]
+margin_left = 84.0
+margin_right = 88.0
+margin_bottom = 24.0
+
+[node name="LineEdit" type="LineEdit" parent="HBoxContainer"]
+margin_left = 92.0
+margin_right = 150.0
+margin_bottom = 24.0
+
+[node name="LevelWidth" type="Button" parent="HBoxContainer"]
+margin_left = 154.0
+margin_right = 186.0
+margin_bottom = 24.0
+text = "Set"
+
+[node name="VSeparator" type="VSeparator" parent="HBoxContainer"]
+margin_left = 190.0
+margin_right = 194.0
+margin_bottom = 24.0
+
+[node name="Label2" type="Label" parent="HBoxContainer"]
+margin_left = 198.0
+margin_top = 5.0
+margin_right = 206.0
+margin_bottom = 19.0
+text = "0"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+margin_top = 28.0
+margin_right = 243.0
+margin_bottom = 52.0
+
+[node name="Label" type="Label" parent="HBoxContainer2"]
+margin_top = 5.0
+margin_right = 84.0
+margin_bottom = 19.0
+text = "Level Height:"
+
+[node name="VSeparator2" type="VSeparator" parent="HBoxContainer2"]
+margin_left = 88.0
+margin_right = 92.0
+margin_bottom = 24.0
+
+[node name="LineEdit" type="LineEdit" parent="HBoxContainer2"]
+margin_left = 96.0
+margin_right = 154.0
+margin_bottom = 24.0
+
+[node name="LevelHeight" type="Button" parent="HBoxContainer2"]
+margin_left = 158.0
+margin_right = 190.0
+margin_bottom = 24.0
+text = "Set"
+
+[node name="VSeparator" type="VSeparator" parent="HBoxContainer2"]
+margin_left = 194.0
+margin_right = 198.0
+margin_bottom = 24.0
+
+[node name="Label2" type="Label" parent="HBoxContainer2"]
+margin_left = 202.0
+margin_top = 5.0
+margin_right = 210.0
+margin_bottom = 19.0
+text = "0"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="."]
+margin_top = 56.0
+margin_right = 243.0
+margin_bottom = 80.0
+
+[node name="Label" type="Label" parent="HBoxContainer3"]
+margin_top = 5.0
+margin_right = 95.0
+margin_bottom = 19.0
+text = "Camera Speed:"
+
+[node name="VSeparator2" type="VSeparator" parent="HBoxContainer3"]
+margin_left = 99.0
+margin_right = 103.0
+margin_bottom = 24.0
+
+[node name="LineEdit" type="LineEdit" parent="HBoxContainer3"]
+margin_left = 107.0
+margin_right = 165.0
+margin_bottom = 24.0
+
+[node name="CameraSpeed" type="Button" parent="HBoxContainer3"]
+margin_left = 169.0
+margin_right = 201.0
+margin_bottom = 24.0
+text = "Set"
+
+[node name="VSeparator" type="VSeparator" parent="HBoxContainer3"]
+margin_left = 205.0
+margin_right = 209.0
+margin_bottom = 24.0
+
+[node name="Label2" type="Label" parent="HBoxContainer3"]
+margin_left = 213.0
+margin_top = 5.0
+margin_right = 221.0
+margin_bottom = 19.0
+text = "0"
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="."]
+margin_top = 84.0
+margin_right = 243.0
+margin_bottom = 108.0
+
+[node name="Label" type="Label" parent="HBoxContainer5"]
+margin_top = 5.0
+margin_right = 117.0
+margin_bottom = 19.0
+text = "3D Camera Speed:"
+
+[node name="VSeparator2" type="VSeparator" parent="HBoxContainer5"]
+margin_left = 121.0
+margin_right = 125.0
+margin_bottom = 24.0
+
+[node name="LineEdit" type="LineEdit" parent="HBoxContainer5"]
+margin_left = 129.0
+margin_right = 187.0
+margin_bottom = 24.0
+
+[node name="3DSpeed" type="Button" parent="HBoxContainer5"]
+margin_left = 191.0
+margin_right = 223.0
+margin_bottom = 24.0
+text = "Set"
+
+[node name="VSeparator" type="VSeparator" parent="HBoxContainer5"]
+margin_left = 227.0
+margin_right = 231.0
+margin_bottom = 24.0
+
+[node name="Label2" type="Label" parent="HBoxContainer5"]
+margin_left = 235.0
+margin_top = 5.0
+margin_right = 243.0
+margin_bottom = 19.0
+text = "0"
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="."]
+margin_top = 112.0
+margin_right = 243.0
+margin_bottom = 136.0
+
+[node name="Zoom" type="CheckBox" parent="HBoxContainer4"]
+margin_right = 65.0
+margin_bottom = 24.0
+text = "Zoom"
+
+[node name="HBoxContainer6" type="HBoxContainer" parent="."]
+margin_top = 140.0
+margin_right = 243.0
+margin_bottom = 164.0
+
+[node name="Label" type="Label" parent="HBoxContainer6"]
+margin_top = 5.0
+margin_right = 83.0
+margin_bottom = 19.0
+text = "Zoom Width:"
+
+[node name="VSeparator2" type="VSeparator" parent="HBoxContainer6"]
+margin_left = 87.0
+margin_right = 91.0
+margin_bottom = 24.0
+
+[node name="LineEdit" type="LineEdit" parent="HBoxContainer6"]
+margin_left = 95.0
+margin_right = 153.0
+margin_bottom = 24.0
+
+[node name="ZoomWidth" type="Button" parent="HBoxContainer6"]
+margin_left = 157.0
+margin_right = 189.0
+margin_bottom = 24.0
+text = "Set"
+
+[node name="VSeparator" type="VSeparator" parent="HBoxContainer6"]
+margin_left = 193.0
+margin_right = 197.0
+margin_bottom = 24.0
+
+[node name="Label2" type="Label" parent="HBoxContainer6"]
+margin_left = 201.0
+margin_top = 5.0
+margin_right = 209.0
+margin_bottom = 19.0
+text = "0"

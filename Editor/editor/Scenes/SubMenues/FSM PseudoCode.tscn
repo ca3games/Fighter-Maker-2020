@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/SubMenues/ControlsList.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/SubMenues/Code.tscn" type="PackedScene" id=2]
+
+[node name="PseudoCode" type="HBoxContainer"]
+margin_bottom = 541.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+margin_right = 175.0
+margin_bottom = 541.0
+
+[node name="Label" type="Label" parent="VBoxContainer2"]
+margin_right = 175.0
+margin_bottom = 14.0
+text = "State Code Switches"
+
+[node name="ControlsList" parent="VBoxContainer2" instance=ExtResource( 1 )]
+margin_top = 18.0
+margin_right = 175.0
+margin_bottom = 38.0
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="."]
+margin_left = 179.0
+margin_right = 333.0
+margin_bottom = 541.0
+
+[node name="Code" parent="VBoxContainer3" instance=ExtResource( 2 )]
+margin_right = 154.0
+margin_bottom = 541.0

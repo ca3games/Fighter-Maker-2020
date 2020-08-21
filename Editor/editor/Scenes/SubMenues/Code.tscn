@@ -1,0 +1,106 @@
+[gd_scene format=2]
+
+[node name="Code" type="VBoxContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_right = 154.0
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+margin_top = 4.0
+margin_right = 154.0
+margin_bottom = 4.0
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="."]
+margin_top = 8.0
+margin_right = 154.0
+margin_bottom = 8.0
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="."]
+margin_top = 12.0
+margin_right = 154.0
+margin_bottom = 26.0
+
+[node name="Label" type="Label" parent="HBoxContainer4"]
+margin_right = 57.0
+margin_bottom = 14.0
+text = "Anim ID:"
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="."]
+margin_top = 30.0
+margin_right = 154.0
+margin_bottom = 44.0
+
+[node name="Label" type="Label" parent="HBoxContainer5"]
+margin_right = 95.0
+margin_bottom = 14.0
+text = "Spawn Fireball:"
+
+[node name="HBoxContainer6" type="HBoxContainer" parent="."]
+margin_top = 48.0
+margin_right = 154.0
+margin_bottom = 62.0
+
+[node name="Label" type="Label" parent="HBoxContainer6"]
+margin_right = 68.0
+margin_bottom = 14.0
+text = "Stop Time:"
+
+[node name="HBoxContainer7" type="HBoxContainer" parent="."]
+margin_top = 66.0
+margin_right = 154.0
+margin_bottom = 80.0
+
+[node name="Label" type="Label" parent="HBoxContainer7"]
+margin_right = 111.0
+margin_bottom = 14.0
+text = "Cancel Condition:"
+
+[node name="HBoxContainer8" type="HBoxContainer" parent="."]
+margin_top = 84.0
+margin_right = 154.0
+margin_bottom = 98.0
+
+[node name="Label" type="Label" parent="HBoxContainer8"]
+margin_right = 120.0
+margin_bottom = 14.0
+text = "Color Modification:"
+
+[node name="HBoxContainer9" type="HBoxContainer" parent="."]
+margin_top = 102.0
+margin_right = 154.0
+margin_bottom = 541.0
+
+[node name="Label" type="Label" parent="HBoxContainer9"]
+margin_right = 154.0
+margin_bottom = 439.0
+text = "Change Variable:
+Detect Skill:
+Detect Condition:
+Random:
+Detect Command Input:
+Go to Skill:
+For Loop Skill:
+Check Special Gauge:
+Check Life Gauge:
+Change Gauge Value:
+Special Effect (Scenery)
+Time Stop:
+After Image:
+Call Background Picture:
+End Skill:
+Bind to Player:
+Bind to Target:
+Create Mascot:
+Set Parent:
+Create Spark:
+Create Dust:
+Destroy Fireball:
+Shake Player:
+Shake Enemy:
+Shake Background:
+Change Gravity:"

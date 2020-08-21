@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Code/Button.gd" type="Script" id=1]
+
+[node name="Button" type="OptionButton"]
+margin_left = 92.0
+margin_right = 164.0
+margin_bottom = 40.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
