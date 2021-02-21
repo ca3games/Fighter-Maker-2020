@@ -451,7 +451,7 @@ anchor_bottom = 1.0
 margin_left = 4.0
 margin_top = 32.0
 margin_right = -4.0
-margin_bottom = 17.0
+margin_bottom = -4.0
 
 [node name="Mascot" parent="PanelContainer/Data/Fireballs" instance=ExtResource( 21 )]
 visible = false
