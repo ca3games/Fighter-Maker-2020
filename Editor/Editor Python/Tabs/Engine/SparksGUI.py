@@ -1,27 +1,29 @@
 import sys
-sys.path.append("./Tabs/Characters")
+sys.path.append("./Tabs/Engine/GUI/Sparks")
 
 import wx
 from globals import *
 
-from CharacterData import *
-from CharacterSprites import *
+from ListSparks import *
+from EditorSpark import *
 
-class CharacterTab(wx.Panel):
+class SparksGUI(wx.Panel):
     def __init__(self, parent):
         wx.Panel.__init__(self, parent)
         
         panel = wx.Panel(self, size=(WINDOW_WIDTH, WINDOW_HEIGHT))
+        
         nb = wx.Notebook(panel)
         
-        cd = CharacterData(nb)
-        cs = CharacterSprites(nb)
+        ls = ListSparks(nb)
+        es = EditorSpark(nb)
         
-        nb.AddPage(cd, "Data")
-        nb.AddPage(cs, "Sprites")
+        nb.AddPage(ls, "List")
+        nb.AddPage(es, "Editor")
         
-        sizer = wx.BoxSizer()
+        sizer = wx.BoxSizer(wx.VERTICAL)
         sizer.Add(nb, 1, wx.EXPAND)
         
         self.SetSizer(sizer)
-
+        
+        

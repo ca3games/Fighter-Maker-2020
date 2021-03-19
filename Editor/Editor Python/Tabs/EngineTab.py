@@ -6,6 +6,9 @@ from globals import *
 
 from BasicData import *
 from CharacterList import *
+from GUITab import *
+from CommonImages import *
+from SparksGUI import *
 
 class EngineTab(wx.Panel):
     def __init__(self, parent):
@@ -16,10 +19,15 @@ class EngineTab(wx.Panel):
         
         bd = BasicData(nb)
         cl = CharacterList(nb)
-        
+        gui = GUITab(nb)
+        ci = CommonImages(nb)
+        sp = SparksGUI(nb)
         
         nb.AddPage(bd, "Basic Data")
         nb.AddPage(cl, "Character List")
+        nb.AddPage(gui, "GUI")
+        nb.AddPage(ci, "Common Images")
+        nb.AddPage(sp, "Sparks")
         
         sizer = wx.BoxSizer(wx.VERTICAL)
         sizer.Add(nb, 1, wx.EXPAND)
