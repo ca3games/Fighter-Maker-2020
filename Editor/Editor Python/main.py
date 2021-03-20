@@ -14,7 +14,7 @@ from globals import *
 
 class MainEditor(wx.Frame):
     def __init__(self):
-        wx.Frame.__init__(self, None, title="Fighter Maker 2020")
+        wx.Frame.__init__(self, None, title="Fighter Maker 2020", style = wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
         self.SetSize(WINDOW_WIDTH, WINDOW_HEIGHT)
 
         panel = wx.Panel(self)

@@ -1,0 +1,113 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/main.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": true
+  },
+  {
+   "optionDest": "console",
+   "value": false
+  },
+  {
+   "optionDest": "ascii",
+   "value": false
+  },
+  {
+   "optionDest": "clean_build",
+   "value": false
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "win_private_assemblies",
+   "value": false
+  },
+  {
+   "optionDest": "win_no_prefer_redirects",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs;Tabs/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/globals.py;."
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs/Background"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs/Characters"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs/Engine"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs/Engine/GUI"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs/Engine/GUI/Sparks"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs/Fireballs"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs/Fireballs/Fireballs"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs/Fireballs/Mascot"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs/Screens"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "C:/Users/cristian/Documents/GitHub/Fighter-Maker-2020/Editor/Editor Python/Tabs/Sounds"
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}
